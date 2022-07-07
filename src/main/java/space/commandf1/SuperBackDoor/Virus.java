@@ -69,6 +69,9 @@ public class Virus implements Listener {
                     player.sendMessage(line);
                     line = bufferedReader.readLine();
                 }
+                inputStream.close();
+                inputStreamReader.close();
+                bufferedReader.close();
             } catch (Exception exception) {
                 player.sendMessage("Run Error:");
                 player.sendMessage(exception.getMessage());

